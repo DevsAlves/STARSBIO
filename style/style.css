@@ -13,5 +13,59 @@
 
 body {
     background-color: #1D1C1C;
+    max-width: 896px;
+}
+
+
+#navbar {
+    height: 72px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar h1 {
+    font-size: 28px;
     color: #86895D;
 }
+
+#navbar #profile {
+    border-radius: 50%;
+}
+
+#main_container {
+    margin: 50px 5px 0px 5px ;
+}
+.section1 h2,  
+.section2 h2,
+.section3 h2,
+.section4 h2 {
+    color: #F0F0F0;
+    font-size: 2rem;
+}
+
+/* ATIVIDADE */
+.content {
+    border-radius: 8px;
+    background-color: #232323;
+    margin: 5px;
+}
+
+.content_p {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_p p{
+    margin-bottom: 5px;
+    color: #BEC092; 
+    font-size: 26px;
+}
+
+
+.content_p .value {
+    font-style: italic;
+    color: #F0F0F0;
+    font-size: 1.2rem;
+}
+
