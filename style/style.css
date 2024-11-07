@@ -16,7 +16,7 @@ body {
     max-width: 896px;
 }
 
-
+/* NAVBAR */
 #navbar {
     height: 72px;
     padding: 15px;
@@ -28,7 +28,7 @@ body {
     color: #86895D;
 }
 
-#navbar #profile {
+#profile {
     border-radius: 50%;
 }
 
@@ -43,6 +43,9 @@ body {
     font-size: 2rem;
 }
 
+/* PRODUTO */
+
+
 /* ATIVIDADE */
 .content {
     border-radius: 8px;
@@ -56,7 +59,7 @@ body {
     flex-direction: column;
 }
 
-.content_p p{
+.content_p p {
     margin-bottom: 5px;
     color: #BEC092; 
     font-size: 26px;
@@ -69,3 +72,53 @@ body {
     font-size: 1.2rem;
 }
 
+/* DICAS DE TREINO */
+
+.content_p h3 {
+    color: #F0F0F0;
+    font-size: 23px;
+}
+
+
+.sub_content #tip {
+    font-size: 16px;
+    color: #BEC092; 
+    text-decoration: none;
+}
+
+.content_inline {
+    padding: 5px;
+    display: flex;
+}
+
+.sub_content {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+
+.sub_content  h3 {
+    color: #F0F0F0;
+}
+
+/* TAREFAS */
+
+
+
+
+
+/* PRÊMIOS */
+
+.heading_awards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F0F0F0;
+    padding: 5px;
+}
+
+
+.heading_awards a {
+    text-decoration: none;
+    color: #BEC092;
+}
