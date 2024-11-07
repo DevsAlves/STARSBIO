@@ -21,8 +21,12 @@ body {
     height: 72px;
     padding: 15px;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+
 #navbar h1 {
     font-size: 28px;
     color: #86895D;
@@ -30,6 +34,8 @@ body {
 
 #profile {
     border-radius: 50%;
+    width: 80px;
+    margin-bottom: 3px;
 }
 
 #main_container {
@@ -121,4 +127,15 @@ body {
 .heading_awards a {
     text-decoration: none;
     color: #BEC092;
+}
+
+.content_awards {
+    display: flex;
+    justify-content: center;
+}
+
+.content_awards img {
+    border-radius: 50%;
+    width: 60px;
+    margin: 2px 5px 2px 5px;
 }
