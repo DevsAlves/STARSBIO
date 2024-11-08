@@ -13,23 +13,29 @@
 
 body {
     background-color: #1D1C1C;
-    max-width: 896px;
+    max-width: 1024px;
 }
 
 /* NAVBAR */
 #navbar {
-    height: 72px;
+    height: 200px;
     padding: 15px;
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/forest.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 
+
 #navbar h1 {
-    font-size: 28px;
-    color: #86895D;
+    font-size: 42px;
+    color: #BEC092;
+    font-weight: bold;
+    text-shadow: 3px 2px 5px rgba(249, 249, 249, 0.165);
 }
 
 #profile {
@@ -41,26 +47,48 @@ body {
 #main_container {
     margin: 50px 5px 0px 5px ;
 }
+
+
 .section1 h2,  
 .section2 h2,
 .section3 h2,
 .section4 h2 {
     color: #F0F0F0;
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
-/* PRODUTO */
+.section1 ,  
+.section2 ,
+.section3 ,
+.section4  {
+    margin-bottom: 30px;
+}
 
 
-/* ATIVIDADE */
-.content {
+
+/* SITUAÇÃO */
+
+.content_situation {
     border-radius: 8px;
     background-color: #232323;
     margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
 }
 
+#circle {
+    border-radius: 50%;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+
 .content_p {
-    padding: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -68,17 +96,29 @@ body {
 .content_p p {
     margin-bottom: 5px;
     color: #BEC092; 
-    font-size: 26px;
+    font-size: 32px;
+   
 }
 
 
 .content_p .value {
     font-style: italic;
     color: #F0F0F0;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
-/* DICAS DE TREINO */
+/* DESEMPENHO */
+
+.content {
+    border-radius: 8px;
+    background-color: #232323;
+    margin: 5px;
+}
+
 
 .content_p h3 {
     color: #F0F0F0;
@@ -98,24 +138,51 @@ body {
 }
 
 .sub_content {
-    display: inline-block;
-    margin-left: 8px;
+    display: flex;
+    margin: 0 auto; 
+}
+
+.sub_content  h2 {
+    color: #BEC092;
+}
+
+/* Dicas */
+
+.content ul li {
+    color: #F8FBCA;
+    font-size: 26px;
+    margin-bottom: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.content ul li svg {
+    margin-right: 10px; 
+    color: #F8FBCA; 
 }
 
 
-.sub_content  h3 {
+/* FOOTER  */
+#footer_container {
+    border-top: 2px solid #F0F0F0;
     color: #F0F0F0;
+    height: 60px;
+    font-size: 23px;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
 }
 
-/* TAREFAS */
+#footer_container p {
+    margin: 8px;
+}
 
 
 
+/* Sobre o projeto */
 
-
-/* PRÊMIOS */
-
-.heading_awards {
+.heading_project {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,18 +191,13 @@ body {
 }
 
 
-.heading_awards a {
+.heading_project a {
     text-decoration: none;
     color: #BEC092;
 }
 
-.content_awards {
-    display: flex;
-    justify-content: center;
+.content_project p {
+    color: #F0F0F0;
+    font-size: 18px;
 }
 
-.content_awards img {
-    border-radius: 50%;
-    width: 60px;
-    margin: 2px 5px 2px 5px;
-}
