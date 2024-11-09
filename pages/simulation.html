@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STARSBIO</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="icon" href="img/logo.jpg" type="image/"x-icon>
+    <link rel="icon" href="../img/logo.jpg" type="image/"x-icon>
 
 </head>
 <body>
@@ -17,7 +17,7 @@
 
     <form class="form-container">
         <label for="grau">Qual o grau de queimadura?</label>
-        <select id="grau" name="grau">
+        <select id="grau" name="grau" required>
           <option value="">Selecione...</option>
           <option value="1">1º Grau</option>
           <option value="2">2º Grau</option>
@@ -25,15 +25,18 @@
         </select>
   
         <label for="progresso">Qual o progresso?</label>
-        <input type="number" id="progresso" name="progresso" placeholder="Descreva o progresso">
+        <input type="number" id="progresso" name="progresso" placeholder="Descreva o progresso" required>
   
         <label for="prazo">Qual o prazo estimado?</label>
-        <input type="date" id="prazo" name="prazo">
+        <input type="date" id="prazo" name="prazo" required>
   
-        <button type="submit">Enviar</button>
+        <button type="submit" id="submit">Enviar</button>
       </form>
 
     <footer id="footer_container">
         <p> Guilherme Alves &copy;</p>
     </footer>  
+
+
+    <script src="../src/script.js"></script>
 </body>
