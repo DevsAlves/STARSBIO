@@ -195,9 +195,26 @@ body {
     font-size: 18px;
     line-height: 29px;
 }
+
 .members {
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.member a {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-size: 24px;
+    margin: 2px 10px 2px 10px;
+}
+
+
+
+
+
+
 
 /* Comentário */
 
