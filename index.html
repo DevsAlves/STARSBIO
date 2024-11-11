@@ -10,34 +10,6 @@
 </head>
 <body>
 
-    
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const grau2 = localStorage.getItem("grau");
-            const progresso2 = localStorage.getItem("progresso");
-            const prazo2 = localStorage.getItem("prazo");
-
-            document.getElementById("burn").textContent = `${grau2}° grau`; 
-            document.getElementById("progress").textContent = ` ${progresso2}/10`; 
-            document.getElementById("term").textContent = prazo2; 
-
-            const circle = document.getElementById("circle");
-
-            // Garantindo que o valor de progresso2 seja tratado como número
-            const progressoNum = parseInt(progresso2);
-
-            if(progressoNum <= 5) {
-                circle.style.backgroundColor = "red";
-            } else if (progressoNum <= 7) {
-                circle.style.backgroundColor = "yellow";
-            } else if (progressoNum >= 8) {
-                circle.style.backgroundColor = "green";
-            };
-        });
- 
-    </script>
-
-
     <nav id="navbar">
         <img src="img/logo-removebg-preview.png" alt="logo" id="profile">
         <h1><a href="index.html">STARS BIO</a></h1>   
@@ -67,7 +39,7 @@
             <div class="content">
                 <div class="content_inline"> 
                     <div class="sub_content"> 
-                        <h2>Está evoluindo</h2>
+                        <h2 id="message">Está evoluindo</h2>
                     </div>
                 </div>
             </div>
@@ -130,7 +102,7 @@
     </footer>  
 
 
-    <script src="src/script.js"></script>
+    <script src="src/main.js"></script>
 
 </body>
 </html>

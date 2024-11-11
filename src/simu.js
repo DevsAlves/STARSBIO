@@ -19,7 +19,4 @@ submit.addEventListener("click", () => {
     localStorage.setItem("grau", valorGrau);
     localStorage.setItem("progresso", valorProgresso);
     localStorage.setItem("prazo", dataFormatada);
-
-    // Redireciona para outra página
-    window.location.href = "../index.html"; // Alterar o nome para o arquivo da página de destino
 });

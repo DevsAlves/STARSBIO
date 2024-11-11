@@ -434,7 +434,6 @@ select:focus {
 }
 
 
-
 button {
     width: 100%;
     padding: 10px;
@@ -447,10 +446,11 @@ button {
 }
 
 button a {
-    text-decoration: none;
     color: #F0F0F0;
+    text-decoration: none;
+    padding: 0px 150px 0px 150px;
 }
-  
+
 button:hover {
     background-color: #003a8d;
 }
