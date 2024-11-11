@@ -1,12 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Oswald:wght@200..700&family=Roboto:ital,wght@1,300&display=swap');
 
 *{
-    font-family: "Oswald", sans-serif;
+    font-family: "Poppins", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 700;
     font-style: italic;
+    text-transform: uppercase;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

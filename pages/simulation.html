@@ -21,15 +21,14 @@
 
 
     <form class="form-container">
-        <label for="grau">Qual o grau de queimadura?</label>
-        <select id="grau" name="grau" required>
+        <label for="lesao">Qual o tipo de lesão ?</label>
+        <select id="lesao" name="grau" required>
           <option value="">Selecione...</option>
-          <option value="1">1º Grau</option>
-          <option value="2">2º Grau</option>
-          <option value="3">3º Grau</option>
+          <option value="Corte">Corte</option>
+          <option value="Queimadura">Queimadura</option>
         </select>
   
-        <label for="progresso">Qual o progresso? (de 0 a 10)</label>
+        <label for="progresso">Qual o progresso da lesão ? (de 0 a 10)</label>
         <input type="number" id="progresso" name="progresso" placeholder="Descreva o progresso" required>
   
         <label for="prazo">Qual o prazo estimado?</label>

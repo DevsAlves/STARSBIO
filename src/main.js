@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const grau2 = localStorage.getItem("grau");
+    const lesao2 = localStorage.getItem("lesao");
     const progresso2 = localStorage.getItem("progresso");
     const prazo2 = localStorage.getItem("prazo");
 
-    document.getElementById("burn").textContent = `${grau2}° grau`; 
+    document.getElementById("burn").textContent = lesao2; 
     document.getElementById("progress").textContent = ` ${progresso2}/10`; 
     document.getElementById("term").textContent = prazo2; 
 
