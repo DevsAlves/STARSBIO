@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
         progressComment.textContent = "Melhorando"
     } else if (progressoNum >= 8) {
         circle.style.backgroundColor = "green";
-        progressComment.textContent = "Bem melhor"
+        progressComment.textContent = "Melhor"
     };
-
-
 });
