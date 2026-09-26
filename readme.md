@@ -1,31 +1,34 @@
-# STARS BIO 
+# 🩹 STARS BIO
 
-<div style= "margin-top: 8px">
+Aplicativo desenvolvido em parceria interdisciplinar entre os cursos de **Tecnologia** e **Administração** da EEEP Leonel de Moura Brizola, com o objetivo de apresentar um protótipo funcional de acompanhamento para um biocurativo inteligente.
+
+<div align="center" style="margin-top: 8px;">
   <img src="img/site.png" alt="Imagem do projeto">
 </div>
 
-> Este projeto foi desenvolvido em parceria com o curso de Administração da EEEP Leonel de Moura Brizola.
+## 📌 Sobre o projeto
 
+O STARS BIO simula o funcionamento de um aplicativo que acompanha o uso de um **biocurativo**, permitindo que o usuário registre e defina condições de saúde para monitoramento do processo de cicatrização.
 
-## ✅ Propostas 
+## ✅ Funcionalidades
 
-- Mostrar o produto que seria o biocurativo 
-- Trazer um exemplo de como seria o funcionamento do aplicativo com o biocurativo, com o usuário definindo as condições
+- Apresentação do produto (biocurativo) e sua proposta de valor
+- Simulação do fluxo de uso do aplicativo
+- Interface para o usuário definir condições/parâmetros de acompanhamento
 
-## ⚙️ Ajustes e melhorias
+## 🛠️ Tecnologias utilizadas
 
-- [x] Acrescentar responsividade
+> HTML, CSS e JavaScript
 
+## 👤 Minha contribuição
 
-## 💻 Linguagens
-<a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=html,css,js"/>
-</a>
+> Desenvolvi a interface de definição de condições do usuário e estruturei o front-end da aplicação
 
+## 👥 Equipe
 
+Projeto desenvolvido pela equipe **StarsBio**
+📷 [Instagram do projeto](https://www.instagram.com/starsbio.s)
 
-## 📝 Liçencas 
-<ul> 
-  <li>Equipe Starbio <a href="https://www.instagram.com/starsbio.s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram </a> </li>
-</ul>
+## 📝 Licença
 
+Este projeto é de uso educacional, desenvolvido no contexto de uma parceria escolar entre os cursos de Tecnologia e Administração.
